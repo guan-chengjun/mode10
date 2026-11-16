@@ -1,25 +1,13 @@
-# ---- OS ----
-Thumbs.db
-Desktop.ini
+node_modules
+dist
+dist-ssr
+*.local
 .DS_Store
-
-# ---- Python ----
-__pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
-.pytest_cache/
-
-# ---- Node ----
-node_modules/
-dist/
-
-# ---- IDE / 编辑器 ----
-.idea/
-.vscode/
-*.swp
-
-# ---- 日志与临时文件 ----
-*.log
-*.tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vscode/*
+!.vscode/extensions.json
+.idea
+scripts/shots/

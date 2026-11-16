@@ -1,0 +1,27 @@
+{
+  "name": "steel-plant-digital-twin",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "基于 Vite + React + Three.js(R3F) 的 3D 炼钢厂数字孪生",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:e2e": "node scripts/e2e-check.mjs",
+    "test:smoke": "node scripts/dist-smoke.mjs",
+    "shots": "node scripts/mode-shots.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
+  }
+}
